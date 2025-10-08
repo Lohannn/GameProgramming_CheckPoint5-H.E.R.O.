@@ -251,7 +251,7 @@ Rigidbody2D:
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 1069cda4bd6b67b489d73d54cc370576, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -334,14 +334,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   damage: 1
-  flySpeed: 2.5
-  timeToFly: 2
-  playerGravity: 1
+  flySpeed: 2.8
+  timeToFly: 1
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
   sensorGround: {fileID: 1461376898}
-  size: {x: 0.7, y: 0.03}
+  size: {x: 0.7, y: 0.05}
   sensorColor:
     serializedVersion: 2
     rgba: 4278195303
@@ -358,7 +357,7 @@ GameObject:
   - component: {fileID: 745604001}
   - component: {fileID: 745604000}
   - component: {fileID: 745604002}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -537,7 +536,7 @@ Transform:
   m_GameObject: {fileID: 1461376897}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.326, y: -0.8, z: 0}
+  m_LocalPosition: {x: 0.326, y: -0.82, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

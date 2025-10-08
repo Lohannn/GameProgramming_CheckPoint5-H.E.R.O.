@@ -16,10 +16,12 @@ public class PlayerAnimatorManager : MonoBehaviour
     void Update()
     {
         anim.SetInteger("pMove", (int)player.GetDirection());
+        anim.SetBool("pOnGround", player.OnGround());
+        anim.SetBool("pFlying", player.IsFlying());
+    }
 
-        if (Input.GetButtonDown("Jump") && !player.OnAttackCooldown())
-        {
-            anim.SetTrigger("pAttack");
-        }
+    public void Attack()
+    {
+        anim.SetTrigger("pAttack");
     }
 }

@@ -140,7 +140,7 @@ TextureImporter:
       name: tails-run (1)_0
       rect:
         serializedVersion: 2
-        x: 3
+        x: 1
         y: 0
         width: 48
         height: 40
@@ -162,7 +162,7 @@ TextureImporter:
       name: tails-run (1)_1
       rect:
         serializedVersion: 2
-        x: 75
+        x: 73
         y: 0
         width: 48
         height: 40
@@ -184,7 +184,7 @@ TextureImporter:
       name: tails-run (1)_2
       rect:
         serializedVersion: 2
-        x: 147
+        x: 145
         y: 0
         width: 48
         height: 40
@@ -206,7 +206,7 @@ TextureImporter:
       name: tails-run (1)_3
       rect:
         serializedVersion: 2
-        x: 219
+        x: 217
         y: 0
         width: 48
         height: 40
@@ -228,7 +228,7 @@ TextureImporter:
       name: tails-run (1)_4
       rect:
         serializedVersion: 2
-        x: 291
+        x: 289
         y: 0
         width: 48
         height: 40
@@ -250,7 +250,7 @@ TextureImporter:
       name: tails-run (1)_5
       rect:
         serializedVersion: 2
-        x: 363
+        x: 361
         y: 0
         width: 48
         height: 40
@@ -272,7 +272,7 @@ TextureImporter:
       name: tails-run (1)_6
       rect:
         serializedVersion: 2
-        x: 435
+        x: 433
         y: 0
         width: 48
         height: 40
@@ -294,7 +294,7 @@ TextureImporter:
       name: tails-run (1)_7
       rect:
         serializedVersion: 2
-        x: 507
+        x: 505
         y: 0
         width: 48
         height: 40
@@ -316,9 +316,9 @@ TextureImporter:
       name: tails-run (1)_8
       rect:
         serializedVersion: 2
-        x: 587
+        x: 581
         y: 0
-        width: 43
+        width: 48
         height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
