@@ -1,0 +1,3991 @@
+fileFormatVersion: 2
+guid: dcf875f804a4e0a429774c4f5f04f809
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3896090360004288817
+    second: chao-animation_0
+  - first:
+      213: 2721978530995643326
+    second: chao-animation_1
+  - first:
+      213: 6669849984982137231
+    second: chao-animation_2
+  - first:
+      213: -8923264403684989189
+    second: chao-animation_3
+  - first:
+      213: -1969974856313912931
+    second: chao-animation_4
+  - first:
+      213: -8953605601003897368
+    second: chao-animation_5
+  - first:
+      213: -3021295678406370754
+    second: chao-animation_6
+  - first:
+      213: -4444924369699689182
+    second: chao-animation_7
+  - first:
+      213: -1998432757747608914
+    second: chao-animation_8
+  - first:
+      213: -8004260028971688507
+    second: chao-animation_9
+  - first:
+      213: 9205801219492822491
+    second: chao-animation_10
+  - first:
+      213: 9152888213163433144
+    second: chao-animation_11
+  - first:
+      213: -1056434338890205222
+    second: chao-animation_12
+  - first:
+      213: -1194353356281176094
+    second: chao-animation_13
+  - first:
+      213: -8701728022205713213
+    second: chao-animation_14
+  - first:
+      213: 3702194975908577617
+    second: chao-animation_15
+  - first:
+      213: 3643001508095249470
+    second: chao-animation_16
+  - first:
+      213: -6587937487701552593
+    second: chao-animation_17
+  - first:
+      213: -1395115573193125305
+    second: chao-animation_18
+  - first:
+      213: 7193374069172152564
+    second: chao-animation_19
+  - first:
+      213: 921423414954918886
+    second: chao-animation_20
+  - first:
+      213: 179171640801862844
+    second: chao-animation_21
+  - first:
+      213: 6710697539297578673
+    second: chao-animation_22
+  - first:
+      213: 5453776154004704133
+    second: chao-animation_23
+  - first:
+      213: 4155279373836025637
+    second: chao-animation_24
+  - first:
+      213: 6827202417509392895
+    second: chao-animation_25
+  - first:
+      213: 5815893447884767284
+    second: chao-animation_26
+  - first:
+      213: 7338904941097472227
+    second: chao-animation_27
+  - first:
+      213: 2661872708077957331
+    second: chao-animation_28
+  - first:
+      213: -6182669235101402070
+    second: chao-animation_29
+  - first:
+      213: 7043723740443237636
+    second: chao-animation_30
+  - first:
+      213: -840985829268156111
+    second: chao-animation_31
+  - first:
+      213: -4166196135004838749
+    second: chao-animation_32
+  - first:
+      213: 5549642877744813540
+    second: chao-animation_33
+  - first:
+      213: 3190653498726280117
+    second: chao-animation_34
+  - first:
+      213: -3965104534294861137
+    second: chao-animation_35
+  - first:
+      213: 2257826869918856393
+    second: chao-animation_36
+  - first:
+      213: -2737396625589383910
+    second: chao-animation_37
+  - first:
+      213: 7349914016687199031
+    second: chao-animation_38
+  - first:
+      213: -3097517325299860949
+    second: chao-animation_39
+  - first:
+      213: 1740585609128181780
+    second: chao-animation_40
+  - first:
+      213: -2710133277320000822
+    second: chao-animation_41
+  - first:
+      213: 8107744657779314837
+    second: chao-animation_42
+  - first:
+      213: 1160452731658710422
+    second: chao-animation_43
+  - first:
+      213: 3892902668651662045
+    second: chao-animation_44
+  - first:
+      213: 3622278150689884485
+    second: chao-animation_45
+  - first:
+      213: -7868254683723861077
+    second: chao-animation_46
+  - first:
+      213: -147362657837596708
+    second: chao-animation_47
+  - first:
+      213: 1523836437086303991
+    second: chao-animation_48
+  - first:
+      213: -871515906029325523
+    second: chao-animation_49
+  - first:
+      213: 2079247859682470405
+    second: chao-animation_50
+  - first:
+      213: -1710882212805636032
+    second: chao-animation_51
+  - first:
+      213: -1848858434283776824
+    second: chao-animation_52
+  - first:
+      213: -7248423261664951695
+    second: chao-animation_53
+  - first:
+      213: 604229949405318299
+    second: chao-animation_54
+  - first:
+      213: -4782059745733750289
+    second: chao-animation_55
+  - first:
+      213: -635576283577398363
+    second: chao-animation_56
+  - first:
+      213: 6460695715481463760
+    second: chao-animation_57
+  - first:
+      213: -3239644025406585809
+    second: chao-animation_58
+  - first:
+      213: 9201680815358535709
+    second: chao-animation_59
+  - first:
+      213: 5371750331145110179
+    second: chao-animation_60
+  - first:
+      213: 7692539827365209620
+    second: chao-animation_61
+  - first:
+      213: 1711005779081750117
+    second: chao-animation_62
+  - first:
+      213: -8276422172580195569
+    second: chao-animation_63
+  - first:
+      213: -2515547646243271459
+    second: chao-animation_64
+  - first:
+      213: -5713387290393889407
+    second: chao-animation_65
+  - first:
+      213: -8344552428442621044
+    second: chao-animation_66
+  - first:
+      213: -4979501495942130026
+    second: chao-animation_67
+  - first:
+      213: 9103674245338631058
+    second: chao-animation_68
+  - first:
+      213: -8650380599651514170
+    second: chao-animation_69
+  - first:
+      213: 8878669775437104544
+    second: chao-animation_70
+  - first:
+      213: 4071765797075936022
+    second: chao-animation_71
+  - first:
+      213: 5684278674319392005
+    second: chao-animation_72
+  - first:
+      213: 9200167717061429856
+    second: chao-animation_73
+  - first:
+      213: 8658731497323236351
+    second: chao-animation_74
+  - first:
+      213: -5060649943973596574
+    second: chao-animation_75
+  - first:
+      213: -1022754607023106221
+    second: chao-animation_76
+  - first:
+      213: -9157263771236546364
+    second: chao-animation_77
+  - first:
+      213: 8216476454452277130
+    second: chao-animation_78
+  - first:
+      213: 5026202727827619136
+    second: chao-animation_79
+  - first:
+      213: -2819503031225506089
+    second: chao-animation_80
+  - first:
+      213: -1611245537854178030
+    second: chao-animation_81
+  - first:
+      213: 4356032645889962785
+    second: chao-animation_82
+  - first:
+      213: 5446563600781965613
+    second: chao-animation_83
+  - first:
+      213: 656225273674558276
+    second: chao-animation_84
+  - first:
+      213: 8698280885052322071
+    second: chao-animation_85
+  - first:
+      213: 8176634147854942324
+    second: chao-animation_86
+  - first:
+      213: 2201614252084059398
+    second: chao-animation_87
+  - first:
+      213: 2363499659849666263
+    second: chao-animation_88
+  - first:
+      213: -8585002425834449679
+    second: chao-animation_89
+  - first:
+      213: 3548683894599702895
+    second: chao-animation_90
+  - first:
+      213: -6287282850631792768
+    second: chao-animation_91
+  - first:
+      213: 6380874288232916105
+    second: chao-animation_92
+  - first:
+      213: 722143179198746325
+    second: chao-animation_93
+  - first:
+      213: 1949281824015586208
+    second: chao-animation_94
+  - first:
+      213: -4459768147184530544
+    second: chao-animation_95
+  - first:
+      213: -4586182371116028025
+    second: chao-animation_96
+  - first:
+      213: -803147444315477443
+    second: chao-animation_97
+  - first:
+      213: 5120572673259489136
+    second: chao-animation_98
+  - first:
+      213: 6730144418932276972
+    second: chao-animation_99
+  - first:
+      213: -6605246512282660773
+    second: chao-animation_100
+  - first:
+      213: -6658916771441920004
+    second: chao-animation_101
+  - first:
+      213: 432163388527601958
+    second: chao-animation_102
+  - first:
+      213: -1008909865558051674
+    second: chao-animation_103
+  - first:
+      213: -2313554388881699764
+    second: chao-animation_104
+  - first:
+      213: -4124042210670550877
+    second: chao-animation_105
+  - first:
+      213: -5966304792341869809
+    second: chao-animation_106
+  - first:
+      213: -2014388417723197140
+    second: chao-animation_107
+  - first:
+      213: 145673935418768373
+    second: chao-animation_108
+  - first:
+      213: 8017475438897360831
+    second: chao-animation_109
+  - first:
+      213: 1767444052985327619
+    second: chao-animation_110
+  - first:
+      213: 8163473356933603441
+    second: chao-animation_111
+  - first:
+      213: 2394502139156669056
+    second: chao-animation_112
+  - first:
+      213: 542727768384947501
+    second: chao-animation_113
+  - first:
+      213: -5351933147996673393
+    second: chao-animation_114
+  - first:
+      213: 5391940927891087602
+    second: chao-animation_115
+  - first:
+      213: 8609539203271872248
+    second: chao-animation_116
+  - first:
+      213: -2455488948129157776
+    second: chao-animation_117
+  - first:
+      213: -9071308215121548707
+    second: chao-animation_118
+  - first:
+      213: -601332971857066540
+    second: chao-animation_119
+  - first:
+      213: 8690187614395350166
+    second: chao-animation_120
+  - first:
+      213: -2570715095200056323
+    second: chao-animation_121
+  - first:
+      213: -4126689829402985792
+    second: chao-animation_122
+  - first:
+      213: 703892215196573618
+    second: chao-animation_123
+  - first:
+      213: -3693168572778730451
+    second: chao-animation_124
+  - first:
+      213: -5905917440038320906
+    second: chao-animation_125
+  - first:
+      213: 6596688577622735575
+    second: chao-animation_126
+  - first:
+      213: -6497274114172269541
+    second: chao-animation_127
+  - first:
+      213: 2149857149098947354
+    second: chao-animation_128
+  - first:
+      213: 1948769636038447240
+    second: chao-animation_129
+  - first:
+      213: 5978431398742852632
+    second: chao-animation_130
+  - first:
+      213: -7939022115228502631
+    second: chao-animation_131
+  - first:
+      213: 4235506766958124537
+    second: chao-animation_132
+  - first:
+      213: 7570524053515289143
+    second: chao-animation_133
+  - first:
+      213: 551521801433369889
+    second: chao-animation_134
+  - first:
+      213: -4932206819495077005
+    second: chao-animation_135
+  - first:
+      213: -6144710522291453284
+    second: chao-animation_136
+  - first:
+      213: -1726668315537205195
+    second: chao-animation_137
+  - first:
+      213: -9130029933054597169
+    second: chao-animation_138
+  - first:
+      213: 6615630662634194090
+    second: chao-animation_139
+  - first:
+      213: 6180623785497512800
+    second: chao-animation_140
+  - first:
+      213: 5472913540918961933
+    second: chao-animation_141
+  - first:
+      213: 4187918211435099139
+    second: chao-animation_142
+  - first:
+      213: -2918655118590267480
+    second: chao-animation_143
+  - first:
+      213: -3072342003547800220
+    second: chao-animation_144
+  - first:
+      213: -5776768975148683782
+    second: chao-animation_145
+  - first:
+      213: -8817572594861122523
+    second: chao-animation_146
+  - first:
+      213: -8884564461123269976
+    second: chao-animation_147
+  - first:
+      213: -5054359827542951614
+    second: chao-animation_148
+  - first:
+      213: 7698528586406794423
+    second: chao-animation_149
+  - first:
+      213: -1003011977515672369
+    second: chao-animation_150
+  - first:
+      213: 213146791657274253
+    second: chao-animation_151
+  - first:
+      213: 5697992356993339266
+    second: chao-animation_152
+  - first:
+      213: -4342629804529695330
+    second: chao-animation_153
+  - first:
+      213: -1616986538396804097
+    second: chao-animation_154
+  - first:
+      213: -4638433510407811924
+    second: chao-animation_155
+  - first:
+      213: -4898497595687282244
+    second: chao-animation_156
+  - first:
+      213: 6353302831395897282
+    second: chao-animation_157
+  - first:
+      213: 4202921226557828451
+    second: chao-animation_158
+  - first:
+      213: -5983379742875917478
+    second: chao-animation_159
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chao-animation_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 262
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcede1fb57e4ee9c0800000000000000
+      internalID: -3896090360004288817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 262
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb32c326d0966c520800000000000000
+      internalID: 2721978530995643326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_2
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 262
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8931041931109c50800000000000000
+      internalID: 6669849984982137231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_3
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 262
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf6e7756d423a2480800000000000000
+      internalID: -8923264403684989189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_4
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 262
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9145f83e4e39a4e0800000000000000
+      internalID: -1969974856313912931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_5
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 262
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8edf635e4276eb380800000000000000
+      internalID: -8953605601003897368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_6
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 262
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3a5a2786933216d0800000000000000
+      internalID: -3021295678406370754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_7
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 262
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22da29206d47052c0800000000000000
+      internalID: -4444924369699689182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_8
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 262
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea213f6bef32444e0800000000000000
+      internalID: -1998432757747608914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_9
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 262
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cdd84b79e72be090800000000000000
+      internalID: -8004260028971688507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_10
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 262
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdd3ab84f6391cf70800000000000000
+      internalID: 9205801219492822491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_11
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 262
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bc5776f557950f70800000000000000
+      internalID: 9152888213163433144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_12
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 262
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad7bce5e09ac651f0800000000000000
+      internalID: -1056434338890205222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_13
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 262
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ef909e43fdcc6fe0800000000000000
+      internalID: -1194353356281176094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_14
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 262
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c4bd50b7704d3780800000000000000
+      internalID: -8701728022205713213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_15
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 262
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 151444c27b6d06330800000000000000
+      internalID: 3702194975908577617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 233
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3cca36f19a8e8230800000000000000
+      internalID: 3643001508095249470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_17
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 233
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f22d11362c1f294a0800000000000000
+      internalID: -6587937487701552593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_18
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 233
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 742553f17cd83ace0800000000000000
+      internalID: -1395115573193125305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_19
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 233
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f823819a9ff3d360800000000000000
+      internalID: 7193374069172152564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_20
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 233
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e38d18c6bd89cc00800000000000000
+      internalID: 921423414954918886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_21
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 233
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb4a1d378ab8c7200800000000000000
+      internalID: 179171640801862844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_22
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 233
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1be8be07bdf212d50800000000000000
+      internalID: 6710697539297578673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_23
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 233
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58b42f74484bfab40800000000000000
+      internalID: 5453776154004704133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_24
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 233
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52ff00c23948aa930800000000000000
+      internalID: 4155279373836025637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_25
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 233
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff1e5593d681fbe50800000000000000
+      internalID: 6827202417509392895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_26
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 233
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43081b4e64436b050800000000000000
+      internalID: 5815893447884767284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_27
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 233
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e05976292709d560800000000000000
+      internalID: 7338904941097472227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_28
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 233
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d03b42ff1fd0f420800000000000000
+      internalID: 2661872708077957331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_29
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 233
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c7b0e761fb23aa0800000000000000
+      internalID: -6182669235101402070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_30
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 233
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40dda153c6550c160800000000000000
+      internalID: 7043723740443237636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_31
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 233
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 131955118d73454f0800000000000000
+      internalID: -840985829268156111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 204
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a46e6c40b2be26c0800000000000000
+      internalID: -4166196135004838749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_33
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 204
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e591464bca440d40800000000000000
+      internalID: 5549642877744813540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_34
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 204
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bbefe8c37a774c20800000000000000
+      internalID: 3190653498726280117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_35
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 204
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faa60102f6e19f8c0800000000000000
+      internalID: -3965104534294861137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_36
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 204
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c478d16399655f10800000000000000
+      internalID: 2257826869918856393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_37
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 204
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1d446ab540d20ad0800000000000000
+      internalID: -2737396625589383910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_38
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 204
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7331e4e4bd3200660800000000000000
+      internalID: 7349914016687199031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_39
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 204
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a32eb67686305d0800000000000000
+      internalID: -3097517325299860949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_40
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 204
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4100e35b36dc72810800000000000000
+      internalID: 1740585609128181780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_41
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 204
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aca4067a42ca36ad0800000000000000
+      internalID: -2710133277320000822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_42
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 204
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 590d1804fce748070800000000000000
+      internalID: 8107744657779314837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_43
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 204
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69d26217c91ca1010800000000000000
+      internalID: 1160452731658710422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_44
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 204
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dda07260a5e560630800000000000000
+      internalID: 3892902668651662045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_45
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 204
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 549878159cae44230800000000000000
+      internalID: 3622278150689884485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_46
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 204
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba3f55e8d085ec290800000000000000
+      internalID: -7868254683723861077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_47
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 204
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdfbe66817674fdf0800000000000000
+      internalID: -147362657837596708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 175
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f673587a21c52510800000000000000
+      internalID: 1523836437086303991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_49
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 175
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d23f405a6e0c7e3f0800000000000000
+      internalID: -871515906029325523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_50
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 175
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50a6d5c79e8fadc10800000000000000
+      internalID: 2079247859682470405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_51
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 175
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0409f2d21b9b148e0800000000000000
+      internalID: -1710882212805636032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_52
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 175
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c4d788bc098756e0800000000000000
+      internalID: -1848858434283776824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_53
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 175
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17248c2827d686b90800000000000000
+      internalID: -7248423261664951695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_54
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 175
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9cc4f800f7a26800800000000000000
+      internalID: 604229949405318299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_55
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 175
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe158d86ff5b2adb0800000000000000
+      internalID: -4782059745733750289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_56
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 175
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5abc4bdccbafd27f0800000000000000
+      internalID: -635576283577398363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_57
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 175
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db2923e58009a950800000000000000
+      internalID: 6460695715481463760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_58
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 175
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f248cea5ce87a03d0800000000000000
+      internalID: -3239644025406585809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_59
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 175
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d18e8ffe2ffe2bf70800000000000000
+      internalID: 9201680815358535709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_60
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 175
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a2cdf5277a4c8a40800000000000000
+      internalID: 5371750331145110179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_61
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 175
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 416e5a6573461ca60800000000000000
+      internalID: 7692539827365209620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_62
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 175
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 566eec6d0b6beb710800000000000000
+      internalID: 1711005779081750117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_63
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 175
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f03d03862ed342d80800000000000000
+      internalID: -8276422172580195569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 146
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddc89126ebaf61dd0800000000000000
+      internalID: -2515547646243271459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_65
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 146
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18537dbb788f5b0b0800000000000000
+      internalID: -5713387290393889407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_66
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 146
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8bed0517c1323c80800000000000000
+      internalID: -8344552428442621044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_67
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 146
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 696d7df95c145eab0800000000000000
+      internalID: -4979501495942130026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_68
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 146
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b08482e7fb65e70800000000000000
+      internalID: 9103674245338631058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_69
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 146
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c847d12daca3f780800000000000000
+      internalID: -8650380599651514170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_70
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 146
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a50dea9e1f573b70800000000000000
+      internalID: 8878669775437104544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_71
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 146
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 613eb475b61d18830800000000000000
+      internalID: 4071765797075936022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_72
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 146
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50db223765d92ee40800000000000000
+      internalID: 5684278674319392005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_73
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 146
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06a86794bcf8daf70800000000000000
+      internalID: 9200167717061429856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_74
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 146
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffb007fbb6ef92870800000000000000
+      internalID: 8658731497323236351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_75
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 146
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2627adc30b5f4c9b0800000000000000
+      internalID: -5060649943973596574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_76
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 146
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3575efb8a127ec1f0800000000000000
+      internalID: -1022754607023106221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_77
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 146
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c844e80e1ddae080800000000000000
+      internalID: -9157263771236546364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_78
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 146
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f2df47dc9c60270800000000000000
+      internalID: 8216476454452277130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_79
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 146
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04db34140c8a0c540800000000000000
+      internalID: 5026202727827619136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 117
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d6aaa47eec1fd8d0800000000000000
+      internalID: -2819503031225506089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_81
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 117
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21db44658b4b3a9e0800000000000000
+      internalID: -1611245537854178030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_82
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 117
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 123b648bc9cb37c30800000000000000
+      internalID: 4356032645889962785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_83
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 117
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d297e2fdcb4169b40800000000000000
+      internalID: 5446563600781965613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_84
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 117
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b610ad8616b1900800000000000000
+      internalID: 656225273674558276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_85
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 117
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7113d16216086b870800000000000000
+      internalID: 8698280885052322071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_86
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 117
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47009319f6d397170800000000000000
+      internalID: 8176634147854942324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_87
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 117
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60d58e36f74bd8e10800000000000000
+      internalID: 2201614252084059398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_88
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 117
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7de88141b66dcc020800000000000000
+      internalID: 2363499659849666263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_89
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 117
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f4554c67c1fbd880800000000000000
+      internalID: -8585002425834449679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_90
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 117
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f69d3cd43357f3130800000000000000
+      internalID: 3548683894599702895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_91
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 117
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087cfad0f851fb8a0800000000000000
+      internalID: -6287282850631792768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_92
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 117
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 984eb8a9b5b6d8850800000000000000
+      internalID: 6380874288232916105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_93
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 117
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5decc193561950a00800000000000000
+      internalID: 722143179198746325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_94
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 117
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a3139fbd7d3d0b10800000000000000
+      internalID: 1949281824015586208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_95
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 117
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09bc67ebf78bb12c0800000000000000
+      internalID: -4459768147184530544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 88
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f687e9e6b9a50c0800000000000000
+      internalID: -4586182371116028025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_97
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 88
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3a205797a5aad4f0800000000000000
+      internalID: -803147444315477443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_98
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 88
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 077443467bdef0740800000000000000
+      internalID: 5120572673259489136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_99
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 88
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee3981f0b6466d50800000000000000
+      internalID: 6730144418932276972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_100
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 88
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b50118d0b437554a0800000000000000
+      internalID: -6605246512282660773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_101
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 88
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf730511a76c693a0800000000000000
+      internalID: -6658916771441920004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_102
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 88
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 629ed1aef4a5ff500800000000000000
+      internalID: 432163388527601958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_103
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 88
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a4760d92d1aff1f0800000000000000
+      internalID: -1008909865558051674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_104
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 88
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4c09228a8a94efd0800000000000000
+      internalID: -2313554388881699764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_105
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 88
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a0e342a57574c6c0800000000000000
+      internalID: -4124042210670550877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_106
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 88
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0b80c6f66d633da0800000000000000
+      internalID: -5966304792341869809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_107
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 88
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2992f128647b04e0800000000000000
+      internalID: -2014388417723197140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_108
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 88
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fb3ba52ca9850200800000000000000
+      internalID: 145673935418768373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_109
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 88
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbf65eaee6bc34f60800000000000000
+      internalID: 8017475438897360831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_110
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 88
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 300319a7009378810800000000000000
+      internalID: 1767444052985327619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_111
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 88
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 170a46524cb7a4170800000000000000
+      internalID: 8163473356933603441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 59
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 082a85a420bfa3120800000000000000
+      internalID: 2394502139156669056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_113
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 59
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d254354a708288700800000000000000
+      internalID: 542727768384947501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_114
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 59
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8a250c582d1ab5b0800000000000000
+      internalID: -5351933147996673393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_115
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 59
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f0a6d8c4b504da40800000000000000
+      internalID: 5391940927891087602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_116
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 59
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fec1d24a4a3b7770800000000000000
+      internalID: 8609539203271872248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_117
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 59
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d2dd8bfc95cedd0800000000000000
+      internalID: -2455488948129157776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_118
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 59
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5ae89d7d3d3c1280800000000000000
+      internalID: -9071308215121548707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_119
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 59
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d5cabc19d2a7a7f0800000000000000
+      internalID: -601332971857066540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_120
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 59
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69cb88bb79fb99870800000000000000
+      internalID: 8690187614395350166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_121
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 59
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfbbddbbd3cf25cd0800000000000000
+      internalID: -2570715095200056323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_122
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 59
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cab73cd67d0bb6c0800000000000000
+      internalID: -4126689829402985792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_123
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 59
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bf54f68d3ab4c900800000000000000
+      internalID: 703892215196573618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_124
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 59
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2c23e310ca3fbcc0800000000000000
+      internalID: -3693168572778730451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_125
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 30
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f44bb11167f90ea0800000000000000
+      internalID: -5905917440038320906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_126
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 30
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7da74138f452c8b50800000000000000
+      internalID: 6596688577622735575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_127
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 30
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1ccb600e9b05d5a0800000000000000
+      internalID: -6497274114172269541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_128
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 30
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1370e9cfa3d5dd10800000000000000
+      internalID: 2149857149098947354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_129
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 30
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8809321b8ab6b0b10800000000000000
+      internalID: 1948769636038447240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_130
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 30
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8140c1c9ea7a7f250800000000000000
+      internalID: 5978431398742852632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_131
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 30
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 995b5dde27de2d190800000000000000
+      internalID: -7939022115228502631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_132
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 30
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fd5d40c6fa87ca30800000000000000
+      internalID: 4235506766958124537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_133
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 30
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 732445d2487ef0960800000000000000
+      internalID: 7570524053515289143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_134
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 30
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12dc154082667a700800000000000000
+      internalID: 551521801433369889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_135
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 30
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b9c3597084d8bb0800000000000000
+      internalID: -4932206819495077005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_136
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 30
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c928637065a99baa0800000000000000
+      internalID: -6144710522291453284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_137
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 30
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5389b77b054a908e0800000000000000
+      internalID: -1726668315537205195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_138
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 30
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc7e89b162e9b4180800000000000000
+      internalID: -9130029933054597169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_139
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 30
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa44e7b59017fcb50800000000000000
+      internalID: 6615630662634194090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_140
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 30
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06bc8e8269cf5c550800000000000000
+      internalID: 6180623785497512800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_141
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 30
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0766e46ed1b3fb40800000000000000
+      internalID: 5472913540918961933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_142
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 30
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3047afcbc697e1a30800000000000000
+      internalID: 4187918211435099139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_143
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8af2d8222aade77d0800000000000000
+      internalID: -2918655118590267480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_144
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46d750ac939dc55d0800000000000000
+      internalID: -3072342003547800220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_145
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afde3c6493bc4dfa0800000000000000
+      internalID: -5776768975148683782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chao-animation_146
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c55164170b1a580800000000000000
+      internalID: -8817572594861122523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0b947cc6911669b449099fe30f08e395
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      chao-animation_0: -3896090360004288817
+      chao-animation_1: 2721978530995643326
+      chao-animation_10: 9205801219492822491
+      chao-animation_100: -6605246512282660773
+      chao-animation_101: -6658916771441920004
+      chao-animation_102: 432163388527601958
+      chao-animation_103: -1008909865558051674
+      chao-animation_104: -2313554388881699764
+      chao-animation_105: -4124042210670550877
+      chao-animation_106: -5966304792341869809
+      chao-animation_107: -2014388417723197140
+      chao-animation_108: 145673935418768373
+      chao-animation_109: 8017475438897360831
+      chao-animation_11: 9152888213163433144
+      chao-animation_110: 1767444052985327619
+      chao-animation_111: 8163473356933603441
+      chao-animation_112: 2394502139156669056
+      chao-animation_113: 542727768384947501
+      chao-animation_114: -5351933147996673393
+      chao-animation_115: 5391940927891087602
+      chao-animation_116: 8609539203271872248
+      chao-animation_117: -2455488948129157776
+      chao-animation_118: -9071308215121548707
+      chao-animation_119: -601332971857066540
+      chao-animation_12: -1056434338890205222
+      chao-animation_120: 8690187614395350166
+      chao-animation_121: -2570715095200056323
+      chao-animation_122: -4126689829402985792
+      chao-animation_123: 703892215196573618
+      chao-animation_124: -3693168572778730451
+      chao-animation_125: -5905917440038320906
+      chao-animation_126: 6596688577622735575
+      chao-animation_127: -6497274114172269541
+      chao-animation_128: 2149857149098947354
+      chao-animation_129: 1948769636038447240
+      chao-animation_13: -1194353356281176094
+      chao-animation_130: 5978431398742852632
+      chao-animation_131: -7939022115228502631
+      chao-animation_132: 4235506766958124537
+      chao-animation_133: 7570524053515289143
+      chao-animation_134: 551521801433369889
+      chao-animation_135: -4932206819495077005
+      chao-animation_136: -6144710522291453284
+      chao-animation_137: -1726668315537205195
+      chao-animation_138: -9130029933054597169
+      chao-animation_139: 6615630662634194090
+      chao-animation_14: -8701728022205713213
+      chao-animation_140: 6180623785497512800
+      chao-animation_141: 5472913540918961933
+      chao-animation_142: 4187918211435099139
+      chao-animation_143: -2918655118590267480
+      chao-animation_144: -3072342003547800220
+      chao-animation_145: -5776768975148683782
+      chao-animation_146: -8817572594861122523
+      chao-animation_15: 3702194975908577617
+      chao-animation_16: 3643001508095249470
+      chao-animation_17: -6587937487701552593
+      chao-animation_18: -1395115573193125305
+      chao-animation_19: 7193374069172152564
+      chao-animation_2: 6669849984982137231
+      chao-animation_20: 921423414954918886
+      chao-animation_21: 179171640801862844
+      chao-animation_22: 6710697539297578673
+      chao-animation_23: 5453776154004704133
+      chao-animation_24: 4155279373836025637
+      chao-animation_25: 6827202417509392895
+      chao-animation_26: 5815893447884767284
+      chao-animation_27: 7338904941097472227
+      chao-animation_28: 2661872708077957331
+      chao-animation_29: -6182669235101402070
+      chao-animation_3: -8923264403684989189
+      chao-animation_30: 7043723740443237636
+      chao-animation_31: -840985829268156111
+      chao-animation_32: -4166196135004838749
+      chao-animation_33: 5549642877744813540
+      chao-animation_34: 3190653498726280117
+      chao-animation_35: -3965104534294861137
+      chao-animation_36: 2257826869918856393
+      chao-animation_37: -2737396625589383910
+      chao-animation_38: 7349914016687199031
+      chao-animation_39: -3097517325299860949
+      chao-animation_4: -1969974856313912931
+      chao-animation_40: 1740585609128181780
+      chao-animation_41: -2710133277320000822
+      chao-animation_42: 8107744657779314837
+      chao-animation_43: 1160452731658710422
+      chao-animation_44: 3892902668651662045
+      chao-animation_45: 3622278150689884485
+      chao-animation_46: -7868254683723861077
+      chao-animation_47: -147362657837596708
+      chao-animation_48: 1523836437086303991
+      chao-animation_49: -871515906029325523
+      chao-animation_5: -8953605601003897368
+      chao-animation_50: 2079247859682470405
+      chao-animation_51: -1710882212805636032
+      chao-animation_52: -1848858434283776824
+      chao-animation_53: -7248423261664951695
+      chao-animation_54: 604229949405318299
+      chao-animation_55: -4782059745733750289
+      chao-animation_56: -635576283577398363
+      chao-animation_57: 6460695715481463760
+      chao-animation_58: -3239644025406585809
+      chao-animation_59: 9201680815358535709
+      chao-animation_6: -3021295678406370754
+      chao-animation_60: 5371750331145110179
+      chao-animation_61: 7692539827365209620
+      chao-animation_62: 1711005779081750117
+      chao-animation_63: -8276422172580195569
+      chao-animation_64: -2515547646243271459
+      chao-animation_65: -5713387290393889407
+      chao-animation_66: -8344552428442621044
+      chao-animation_67: -4979501495942130026
+      chao-animation_68: 9103674245338631058
+      chao-animation_69: -8650380599651514170
+      chao-animation_7: -4444924369699689182
+      chao-animation_70: 8878669775437104544
+      chao-animation_71: 4071765797075936022
+      chao-animation_72: 5684278674319392005
+      chao-animation_73: 9200167717061429856
+      chao-animation_74: 8658731497323236351
+      chao-animation_75: -5060649943973596574
+      chao-animation_76: -1022754607023106221
+      chao-animation_77: -9157263771236546364
+      chao-animation_78: 8216476454452277130
+      chao-animation_79: 5026202727827619136
+      chao-animation_8: -1998432757747608914
+      chao-animation_80: -2819503031225506089
+      chao-animation_81: -1611245537854178030
+      chao-animation_82: 4356032645889962785
+      chao-animation_83: 5446563600781965613
+      chao-animation_84: 656225273674558276
+      chao-animation_85: 8698280885052322071
+      chao-animation_86: 8176634147854942324
+      chao-animation_87: 2201614252084059398
+      chao-animation_88: 2363499659849666263
+      chao-animation_89: -8585002425834449679
+      chao-animation_9: -8004260028971688507
+      chao-animation_90: 3548683894599702895
+      chao-animation_91: -6287282850631792768
+      chao-animation_92: 6380874288232916105
+      chao-animation_93: 722143179198746325
+      chao-animation_94: 1949281824015586208
+      chao-animation_95: -4459768147184530544
+      chao-animation_96: -4586182371116028025
+      chao-animation_97: -803147444315477443
+      chao-animation_98: 5120572673259489136
+      chao-animation_99: 6730144418932276972
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
