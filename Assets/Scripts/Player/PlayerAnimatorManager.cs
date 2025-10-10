@@ -18,10 +18,20 @@ public class PlayerAnimatorManager : MonoBehaviour
         anim.SetInteger("pMove", (int)player.GetDirection());
         anim.SetBool("pOnGround", player.OnGround());
         anim.SetBool("pFlying", player.IsFlying());
+        anim.SetBool("pDead", player.IsDead());
     }
 
     public void Attack()
     {
         anim.SetTrigger("pAttack");
+    }
+
+    public void BombPlant()
+    {
+        anim.SetTrigger("pBomb");
+    }
+
+    public void Death() {
+        anim.SetTrigger("pDeath");
     }
 }
