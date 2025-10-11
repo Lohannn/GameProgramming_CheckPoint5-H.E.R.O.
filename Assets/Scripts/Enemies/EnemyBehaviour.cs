@@ -1,35 +1,29 @@
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class EnemyBehaviour : MonoBehaviour
 {
-    //private Player player;
+    [Header("Enemy Settings")]
+    [SerializeField] private int scoreValue;
+    [SerializeField] private GameObject scoreGain;
 
-    //private void Start()
-    //{
-    //    player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
-    //}
+    private void TakeDamage()
+    {
+        GameObject points = Instantiate(scoreGain);
+        points.transform.SetParent(GameObject.FindGameObjectWithTag("ScoreGainCanvas").transform, true);
+        points.transform.position = Camera.main.WorldToScreenPoint(transform.position);
+        points.GetComponent<ScoreGained>().SetText(scoreValue.ToString());
 
-    //private void Update()
-    //{
-    //    if (player != null)
-    //    {
-    //        Time.timeScale = player.GetTime();
-    //    }
-    //}
+        PlayerData.AddScore(scoreValue);
+
+        Destroy(gameObject);
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Attack") || collision.CompareTag("Explosion"))
         {
-            Destroy(gameObject);
-        }
-    }
-
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Explosion"))
-        {
-            Destroy(gameObject);
+            TakeDamage();
         }
     }
 }

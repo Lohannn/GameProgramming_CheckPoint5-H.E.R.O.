@@ -34,4 +34,14 @@ public class PlayerAnimatorManager : MonoBehaviour
     public void Death() {
         anim.SetTrigger("pDeath");
     }
+
+    public void Revive()
+    {
+        anim.SetTrigger("pRevived");
+    }
+
+    public void Victory()
+    {
+        anim.SetTrigger("pVictory");
+    }
 }

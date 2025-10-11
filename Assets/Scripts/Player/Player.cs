@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    [SerializeField] private StageData data;
+
     [Header("Player Settings")]
     [SerializeField] private float speed;
     [SerializeField] private int damage;
@@ -34,6 +36,8 @@ public class Player : MonoBehaviour
     private bool onDeathScene;
     private bool isReadyToResume;
     private float deathPosition;
+    private bool inSafeZone;
+    private bool hasWon;
 
     private SpriteRenderer sr;
     private Collider2D col;
@@ -67,7 +71,7 @@ public class Player : MonoBehaviour
 
     private void PlayerInputs()
     {
-        if (isDead || onDeathScene || isReadyToResume) return;
+        if (isDead || onDeathScene || isReadyToResume || hasWon) return;
 
         movement = Input.GetAxisRaw("Horizontal") * speed; //Movimento horizontal
         fly = flySpeed; //Voar
@@ -108,10 +112,17 @@ public class Player : MonoBehaviour
 
         }
 
-        if ((Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow)) && OnGround() && movement == 0 && rb.gravityScale == 1) //Plantar bomba
+        if (GameObject.FindGameObjectWithTag("Bomb") == null && GameObject.FindGameObjectWithTag("Explosion") == null)
         {
-            pam.BombPlant();
-            Instantiate(bombPrefab, bombPosition.position, Quaternion.identity);
+            if ((Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow)) && 
+                OnGround() && !inSafeZone &&
+                movement == 0 && rb.gravityScale == 1 &&
+                data.GetBombQuantity() > 0) //Plantar bomba
+            {
+                pam.BombPlant();
+                Instantiate(bombPrefab, bombPosition.position, Quaternion.identity);
+                data.RemoveBomb();
+            }
         }
     }
 
@@ -130,7 +141,7 @@ public class Player : MonoBehaviour
 
     private void FlyingCheck() //Detectar qual gravidade usar
     {
-        if (!isDead && !onDeathScene && !isReadyToResume)
+        if (!isDead && !onDeathScene && !isReadyToResume && !hasWon)
         {
             if (currentTimeToFly < 0.1f)
             {
@@ -150,6 +161,7 @@ public class Player : MonoBehaviour
         attack.transform.position = playerAttackPosition.position;
         attack.transform.rotation = transform.rotation;
         attack.transform.parent = transform;
+        attack.GetComponent<Attack>().SetDamage(damage);
         Destroy(attack, 0.35f);
     }
 
@@ -189,7 +201,9 @@ public class Player : MonoBehaviour
 
     public bool IsFlying() //Detectar para saber se precisa ou não estar na animação de vôo
     {
-        return (!OnGround() || rb.linearVelocityY != 0.0f || currentTimeToFly >= 0.1f || onDeathScene);
+        return (!OnGround() || 
+            (rb.linearVelocityY <= -1.5f || rb.linearVelocityY > 1.5f) || 
+            currentTimeToFly >= 0.1f || onDeathScene);
     }
 
     public bool IsDead()
@@ -270,21 +284,72 @@ public class Player : MonoBehaviour
         fly = 0;
     }
 
+    private IEnumerator DragPlayerToGroundForVictory(Chao chao)
+    {
+        movement = 0;
+        fly = 0;
+        rb.linearVelocity = Vector2.zero;
+
+        while (!OnGround())
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocityX, -1 * flySpeed);
+            yield return new WaitForFixedUpdate();
+        }
+
+        rb.linearVelocity = Vector2.zero;
+        pam.Victory();
+        Time.timeScale = 0.0f;
+        rb.gravityScale = 0.0f;
+
+        chao.SuccessStage();
+    }
+
     private void OnBecameInvisible()
     {
         if (isDead && onDeathScene)
         {
-            transform.position = new Vector2(transform.position.x, 12.0f);
+            transform.position = new Vector2(transform.position.x, Camera.main.transform.position.y + 7.0f);
+            pam.Revive();
             isDead = false;
         }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (collision.CompareTag("SafeZone"))
+        {
+            inSafeZone = true;
+        }
+
         if (collision.CompareTag("Enemy"))
         {
             Destroy(collision.gameObject);
             Death();
+        }
+
+        if (collision.CompareTag("Explosion"))
+        {
+            Death();
+        }
+
+        if (collision.CompareTag("Chao"))
+        {
+            hasWon = true;
+            currentTimeToFly = 0;
+            StartCoroutine(DragPlayerToGroundForVictory(collision.GetComponent<Chao>()));
+        }
+
+        if (collision.CompareTag("CameraSwitcher"))
+        {
+            collision.GetComponent<CameraPositionManager>().ChangeCameraPosition();
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("SafeZone"))
+        {
+            inSafeZone = false;
         }
     }
 
