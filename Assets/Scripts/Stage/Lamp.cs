@@ -9,6 +9,8 @@ public class Lamp : MonoBehaviour
     [SerializeField] private GameObject lamp;
     [SerializeField] private EnemyBehaviour[] enemies;
 
+    private bool isWithoutLight;
+
     private Tilemap darknessMap;
     private Tilemap extraDarknessMap;
 
@@ -34,6 +36,8 @@ public class Lamp : MonoBehaviour
 
     private void Update()
     {
+        if (!isWithoutLight) return;
+
         if (GameObject.FindGameObjectWithTag("Bomb") != null ||
             GameObject.FindGameObjectWithTag("Explosion") != null)
         {
@@ -66,8 +70,11 @@ public class Lamp : MonoBehaviour
             {
                 foreach (var snake in snakes)
                 {
-                    snake.GetComponent<SpriteRenderer>().sortingOrder = 2;
-                    snake.OnDarkness();
+                    if (snake.GetComponent<SpriteRenderer>() != null)
+                    {
+                        snake.GetComponent<SpriteRenderer>().sortingOrder = 2;
+                        snake.OnDarkness();
+                    }
                 }
             }
         }
@@ -76,6 +83,7 @@ public class Lamp : MonoBehaviour
     public void LightsOut()
     {
         darkness.SetActive(true);
+        isWithoutLight = true;
 
         if (extraDarkness != null)
         {
@@ -84,7 +92,7 @@ public class Lamp : MonoBehaviour
 
         lamp.GetComponent<Tilemap>().color = new Color32(100, 100, 100, 255);
 
-        if (enemies.Length > 0)
+        if (enemies[0] != null)
         {
             foreach (var enemy in enemies)
             {
