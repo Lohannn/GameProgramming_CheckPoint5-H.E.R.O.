@@ -180,7 +180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bade94ea22ecf5468d544e463d593de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToTurn: 0.43
+  timeToTurn: 0.7
   direction: 3
 --- !u!50 &-5982155465591096798
 Rigidbody2D:

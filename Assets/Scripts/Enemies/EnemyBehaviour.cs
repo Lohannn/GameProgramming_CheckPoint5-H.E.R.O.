@@ -10,10 +10,12 @@ public class EnemyBehaviour : MonoBehaviour
     [SerializeField] private GameObject scoreGain;
 
     private EnemyAudioPlayer ap;
+    private SpriteRenderer sr;
 
     private void Start()
     {
         ap = GetComponent<EnemyAudioPlayer>();
+        sr = GetComponent<SpriteRenderer>();
     }
 
     private void TakeDamage()
@@ -30,6 +32,22 @@ public class EnemyBehaviour : MonoBehaviour
         Destroy(blow, 0.3f);
         ap.PlayAudio(ap.DEATH);
         Destroy(gameObject);
+    }
+
+    public void OnDarkness()
+    {
+        if (sr != null)
+        {
+            sr.color = new Color32(128, 128, 128, 255);
+        }
+    }
+
+    public void OnDarknessOut()
+    {
+        if (sr != null)
+        {
+            sr.color = Color.white;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

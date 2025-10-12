@@ -227,6 +227,16 @@ public class Player : MonoBehaviour
         return onAttackCooldown;
     }
 
+    private void OnDarkRoom()
+    {
+        sr.color = new Color32(128, 128, 128, 255);
+    }
+
+    private void OnDarkRoomOut()
+    {
+        sr.color = Color.white;
+    }
+
     private void DeathSystem()
     {
         if (isDead)
@@ -303,7 +313,7 @@ public class Player : MonoBehaviour
         print("Voltou pro menu");
         Time.timeScale = 1.0f;
         PlayerData.ResetData();
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene("Stage1Scene");
     }
 
     private IEnumerator DeathByTimeTimer()
@@ -380,6 +390,11 @@ public class Player : MonoBehaviour
             inSafeZone = true;
         }
 
+        if (collision.CompareTag("Lamp"))
+        {
+            collision.GetComponent<Lamp>().LightsOut();
+        }
+
         if (collision.CompareTag("Enemy"))
         {
             Destroy(collision.gameObject);
@@ -412,11 +427,32 @@ public class Player : MonoBehaviour
         }
     }
 
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Darkness"))
+        {
+            OnDarkRoom();
+        }
+    }
+
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.CompareTag("SafeZone"))
         {
             inSafeZone = false;
+        }
+
+        if (collision.CompareTag("Darkness"))
+        {
+            OnDarkRoomOut();
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("MagmaWall"))
+        {
+            Death();
         }
     }
 

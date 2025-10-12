@@ -52,7 +52,7 @@ public class PlayerData : MonoBehaviour
                 return "Stage4Scene";
 
             case "Stage4Scene":
-                return "Stage3Scene";
+                return "Stage5Scene";
 
             case "Stage5Scene":
                 return "Stage1Scene";

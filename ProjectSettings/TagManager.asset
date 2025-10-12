@@ -16,6 +16,9 @@ TagManager:
   - Chao
   - SafeZone
   - StageMusicPlayer
+  - MagmaWall
+  - Darkness
+  - Lamp
   layers:
   - Default
   - TransparentFX
