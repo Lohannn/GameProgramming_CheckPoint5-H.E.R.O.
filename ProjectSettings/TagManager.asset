@@ -7,6 +7,15 @@ TagManager:
   - Enemy
   - Attack
   - Explosion
+  - Breakable
+  - CameraManager
+  - CameraToggler
+  - CameraSwitcher
+  - Bomb
+  - ScoreGainCanvas
+  - Chao
+  - SafeZone
+  - StageMusicPlayer
   layers:
   - Default
   - TransparentFX
@@ -14,7 +23,7 @@ TagManager:
   - Ground
   - Water
   - UI
-  - 
+  - Safe Zone
   - 
   - 
   - 

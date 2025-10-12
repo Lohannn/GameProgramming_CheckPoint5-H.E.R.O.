@@ -1,6 +1,7 @@
 using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -35,6 +36,7 @@ public class Player : MonoBehaviour
     private bool isDead;
     private bool onDeathScene;
     private bool isReadyToResume;
+    private bool wasDeadByTime;
     private float deathPosition;
     private bool inSafeZone;
     private bool hasWon;
@@ -42,14 +44,18 @@ public class Player : MonoBehaviour
     private SpriteRenderer sr;
     private Collider2D col;
     private Rigidbody2D rb;
+    private PlayerAudioPlayer ap;
     private PlayerAnimatorManager pam;
+    private StageMusicPlayer sap;
 
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
         col = GetComponent<Collider2D>();
         rb = GetComponent<Rigidbody2D>();
+        ap = GetComponent<PlayerAudioPlayer>();
         pam = GetComponent<PlayerAnimatorManager>();
+        sap = GameObject.FindGameObjectWithTag("StageMusicPlayer").GetComponent<StageMusicPlayer>();
     }
     
     void Update()
@@ -79,6 +85,7 @@ public class Player : MonoBehaviour
         if (Input.GetButtonDown("Jump") && !onAttackCooldown) //Ataque
         {
             pam.Attack();
+            ap.PlayAudio(ap.ATTACK);
             StartCoroutine(OnAttack());
             StartCoroutine(AttackCooldown());
         }
@@ -120,6 +127,7 @@ public class Player : MonoBehaviour
                 data.GetBombQuantity() > 0) //Plantar bomba
             {
                 pam.BombPlant();
+                ap.PlayAudio(ap.BOMB);
                 Instantiate(bombPrefab, bombPosition.position, Quaternion.identity);
                 data.RemoveBomb();
             }
@@ -158,11 +166,9 @@ public class Player : MonoBehaviour
     {
         yield return new WaitForSeconds(0.06f);
         GameObject attack = Instantiate(playerAttack);
-        attack.transform.position = playerAttackPosition.position;
-        attack.transform.rotation = transform.rotation;
+        attack.transform.SetPositionAndRotation(playerAttackPosition.position, transform.rotation);
         attack.transform.parent = transform;
         attack.GetComponent<Attack>().SetDamage(damage);
-        Destroy(attack, 0.35f);
     }
 
     private IEnumerator AttackCooldown() //Cooldown para não ser possível spammar o ataque e assim bugar a animação
@@ -264,6 +270,12 @@ public class Player : MonoBehaviour
         transform.Translate(6.0f * Time.unscaledDeltaTime * Vector2.down);
     }
 
+    public void OnDeathByTime()
+    {
+        wasDeadByTime = true;
+        Death();
+    }
+
     private void OnRevive()
     {
         transform.Translate(3.0f * Time.unscaledDeltaTime * Vector2.down);
@@ -277,11 +289,28 @@ public class Player : MonoBehaviour
         col.enabled = false;
         isDead = true;
         pam.Death();
+        ap.PlayAudio(ap.DEATH);
         rb.gravityScale = 0.0f;
         rb.linearVelocity = Vector2.zero;
         currentTimeToFly = 0;
         movement = 0;
         fly = 0;
+    }
+
+    private IEnumerator FinalDeathTimer()
+    {
+        yield return new WaitForSecondsRealtime(2.0f);
+        print("Voltou pro menu");
+        Time.timeScale = 1.0f;
+        PlayerData.ResetData();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    private IEnumerator DeathByTimeTimer()
+    {
+        yield return new WaitForSecondsRealtime(2.0f);
+        Time.timeScale = 1.0f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     private IEnumerator DragPlayerToGroundForVictory(Chao chao)
@@ -298,6 +327,7 @@ public class Player : MonoBehaviour
 
         rb.linearVelocity = Vector2.zero;
         pam.Victory();
+        ap.PlayAudio(ap.VICTORY);
         Time.timeScale = 0.0f;
         rb.gravityScale = 0.0f;
 
@@ -306,11 +336,40 @@ public class Player : MonoBehaviour
 
     private void OnBecameInvisible()
     {
-        if (isDead && onDeathScene)
+        if (!wasDeadByTime)
         {
-            transform.position = new Vector2(transform.position.x, Camera.main.transform.position.y + 7.0f);
-            pam.Revive();
-            isDead = false;
+            if (isDead)
+            {
+                if (PlayerData.life > 0)
+                {
+                    PlayerData.life -= 1;
+                    if (isDead && onDeathScene)
+                    {
+                        transform.position = new Vector2(transform.position.x, Camera.main.transform.position.y + 7.0f);
+                        pam.Revive();
+                        isDead = false;
+                    }
+                }
+                else
+                {
+                    StartCoroutine(FinalDeathTimer());
+                }
+            }
+        }
+        else
+        {
+            if (isDead)
+            {
+                if (PlayerData.life > 0)
+                {
+                    PlayerData.life -= 1;
+                    StartCoroutine(DeathByTimeTimer());
+                }
+                else
+                {
+                    StartCoroutine(FinalDeathTimer());
+                }
+            }
         }
     }
 
@@ -335,8 +394,16 @@ public class Player : MonoBehaviour
         if (collision.CompareTag("Chao"))
         {
             hasWon = true;
+            PlayerData.AddScore(collision.GetComponent<Chao>().GetScoreValue());
             currentTimeToFly = 0;
             StartCoroutine(DragPlayerToGroundForVictory(collision.GetComponent<Chao>()));
+
+            if (sap != null)
+            {
+                sap.PlayAudio(sap.VICTORY);
+            }
+
+            StartCoroutine(data.ScoreCollector());
         }
 
         if (collision.CompareTag("CameraSwitcher"))

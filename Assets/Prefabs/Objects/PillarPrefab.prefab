@@ -176,5 +176,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreGain: {fileID: 6300487421582909775, guid: e97ca9d95ed43f242bc4509c179242c9, type: 3}
-  score: 75
+  scoreValue: 75
   maxHealth: 15

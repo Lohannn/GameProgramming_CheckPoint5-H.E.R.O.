@@ -2,6 +2,9 @@ using UnityEngine;
 
 public class Chao : MonoBehaviour
 {
+    [Header("Chao Settings")]
+    [SerializeField] private int scoreValue;
+
     private Animator anim;
     private bool success;
 
@@ -18,5 +21,10 @@ public class Chao : MonoBehaviour
     public void SuccessStage()
     {
         success = true;
+    }
+
+    public int GetScoreValue()
+    {
+        return scoreValue;
     }
 }
