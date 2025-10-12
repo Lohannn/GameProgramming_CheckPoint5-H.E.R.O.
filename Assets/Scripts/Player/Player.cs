@@ -313,6 +313,7 @@ public class Player : MonoBehaviour
         print("Voltou pro menu");
         Time.timeScale = 1.0f;
         PlayerData.ResetData();
+        PlayerData.ResetBonusLifeCounter();
         SceneManager.LoadScene("Stage1Scene");
     }
 

@@ -20,11 +20,14 @@ public class Lamp : MonoBehaviour
     {
         darknessMap = darkness.GetComponent<Tilemap>();
 
-        foreach (var enemy in enemies)
+        if (snakes.Count > 0)
         {
-            if (enemy.GetComponent<SpriteRenderer>().sortingOrder == -1)
+            foreach (var enemy in enemies)
             {
-                snakes.Add(enemy);
+                if (enemy.GetComponent<SpriteRenderer>().sortingOrder == -1)
+                {
+                    snakes.Add(enemy);
+                }
             }
         }
 

@@ -15,6 +15,12 @@ public class PlayerData : MonoBehaviour
     {
         life = 3;
         score = 0;
+        bonusLifeScoreCount = 0;
+    }
+
+    public static void ResetBonusLifeCounter()
+    {
+        bonusLifeScoreCount = 0;
     }
 
     public static void AddScore(int points)
