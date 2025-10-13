@@ -275,7 +275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cbb98d86c391bb43ba96ab190d384ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 521049237}
+  player: {fileID: 5115042101899631453}
   timeOfTheStage: 80
   secondsPassing: 1
   scoreValueForEachSecond: 20
@@ -2875,17 +2875,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 438971662}
   m_CullTransparentMesh: 1
---- !u!114 &521049237 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5115042101863037987, guid: 4c4e3fcc4f67a3344bc31e1ea76d630f, type: 3}
-  m_PrefabInstance: {fileID: 39036798}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c5c61a04577186438aaa4dfc69cbb67, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &588645838
 GameObject:
   m_ObjectHideFlags: 0
@@ -5864,7 +5853,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 289864ef7658be44fb26a854b8f524f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 521049237}
+  player: {fileID: 5115042101899631453}
   pausePanel: {fileID: 690855664}
 --- !u!1 &1430406784
 GameObject:
@@ -10350,6 +10339,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2097025957}
   m_CullTransparentMesh: 1
+--- !u!114 &5115042101899631453 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5115042101863037987, guid: 4c4e3fcc4f67a3344bc31e1ea76d630f, type: 3}
+  m_PrefabInstance: {fileID: 39036798}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c5c61a04577186438aaa4dfc69cbb67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
