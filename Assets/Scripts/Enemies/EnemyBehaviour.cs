@@ -1,37 +1,31 @@
+using System.Diagnostics.Tracing;
 using UnityEngine;
 using UnityEngine.SocialPlatforms.Impl;
 
 public class EnemyBehaviour : MonoBehaviour
 {
-    [SerializeField] private GameObject deathExplosion;
-
     [Header("Enemy Settings")]
     [SerializeField] private int scoreValue;
-    [SerializeField] private GameObject scoreGain;
 
     private EnemyAudioPlayer ap;
     private SpriteRenderer sr;
+    private VfxPoolManager pool;
 
     private void Start()
     {
         ap = GetComponent<EnemyAudioPlayer>();
         sr = GetComponent<SpriteRenderer>();
+        pool = GameObject.FindGameObjectWithTag("VFXPool").GetComponent<VfxPoolManager>();
     }
 
     private void TakeDamage()
     {
-        GameObject points = Instantiate(scoreGain);
-        points.transform.SetParent(GameObject.FindGameObjectWithTag("ScoreGainCanvas").transform, true);
-        points.transform.position = Camera.main.WorldToScreenPoint(transform.position);
-        points.GetComponent<ScoreGained>().SetText(scoreValue.ToString());
-
+        pool.GetScoreText(scoreValue, Camera.main.WorldToScreenPoint(transform.position), Quaternion.identity);
         PlayerData.AddScore(scoreValue);
 
-        GameObject blow = Instantiate(deathExplosion);
-        blow.transform.position = transform.position;
-        Destroy(blow, 0.3f);
+        pool.GetEnemyExplosion(transform.position, Quaternion.identity);
         ap.PlayAudio(ap.DEATH);
-        Destroy(gameObject);
+        gameObject.SetActive(false);
     }
 
     public void OnDarkness()

@@ -5,7 +5,7 @@ public class Attack : MonoBehaviour
 {
     private float damage;
 
-    private void Start()
+    private void OnEnable()
     {
         StartCoroutine(DisableTimer());
     }
@@ -23,6 +23,6 @@ public class Attack : MonoBehaviour
     private IEnumerator DisableTimer()
     {
         yield return new WaitForSecondsRealtime(0.35f);
-        Destroy(gameObject);
+        gameObject.SetActive(false);
     }
 }

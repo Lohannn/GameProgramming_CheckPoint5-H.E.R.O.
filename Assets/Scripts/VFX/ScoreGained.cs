@@ -15,7 +15,10 @@ public class ScoreGained : MonoBehaviour
             scoreTextTransform.GetComponent<Text>() : null;
 
         scoreTextShade = GetComponent<Text>();
+    }
 
+    private void OnEnable()
+    {
         StartCoroutine(Blink());
         StartCoroutine(DisableTimer());
     }
@@ -40,15 +43,15 @@ public class ScoreGained : MonoBehaviour
     private IEnumerator DisableTimer()
     {
         yield return new WaitForSecondsRealtime(0.5f);
-        Destroy(gameObject);
+        gameObject.SetActive(false);
     }
 
-    public void SetText(string score)
+    public void SetText(int score)
     {
         if (scoreTextShade != null && scoreText != null)
         {
-            scoreTextShade.text = score;
-            scoreText.text = score;
+            scoreTextShade.text = score.ToString();
+            scoreText.text = score.ToString();
         }
     }
 }

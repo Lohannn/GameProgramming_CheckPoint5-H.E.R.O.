@@ -4,14 +4,19 @@ using UnityEngine;
 public class Bomb : MonoBehaviour
 {
     [Header("Bomb Settings")]
-    [SerializeField] private GameObject explosionPreFab;
     [SerializeField] private float timeToExplode;
 
     private BombAudioPlayer ap;
-    void Start()
+    private VfxPoolManager pool;
+
+    private void Start()
     {
         ap = GetComponent<BombAudioPlayer>();
+        pool = GameObject.FindGameObjectWithTag("VFXPool").GetComponent<VfxPoolManager>();
+    }
 
+    private void OnEnable()
+    {
         StartCoroutine(ExplosionTimer(timeToExplode));
     }
 
@@ -20,7 +25,7 @@ public class Bomb : MonoBehaviour
         yield return new WaitForSeconds(time);
         ap.PlayAudio(ap.EXPLOSION);
         Vector2 explosionPosition = new Vector2(transform.position.x + 0.07f, transform.position.y);
-        Instantiate(explosionPreFab, explosionPosition, transform.rotation);
-        Destroy(gameObject);
+        pool.GetBombExplosion(explosionPosition, transform.rotation);
+        gameObject.SetActive(false);
     }
 }

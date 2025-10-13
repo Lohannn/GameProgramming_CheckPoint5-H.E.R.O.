@@ -1,4 +1,5 @@
 using System.Collections;
+using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -14,10 +15,12 @@ public class BreakableObject : MonoBehaviour
     private bool canBeDamaged = true;
 
     private SpriteRenderer sr;
+    private VfxPoolManager pool;
 
     private void Start()
     {
         sr = GetComponent<SpriteRenderer>();
+        pool =  GameObject.FindGameObjectWithTag("VFXPool").GetComponent<VfxPoolManager>();
         currentHealth = maxHealth;
     }
 
@@ -63,21 +66,17 @@ public class BreakableObject : MonoBehaviour
 
                 if (currentHealth <= 0)
                 {
-                    Destroy(gameObject);
+                    gameObject.SetActive(false);
                 }
             }
         }
 
         if (collision.CompareTag("Explosion"))
         {
-            GameObject points = Instantiate(scoreGain);
-            points.transform.SetParent(GameObject.FindGameObjectWithTag("ScoreGainCanvas").transform, true);
-            points.transform.position = Camera.main.WorldToScreenPoint(transform.position);
-            points.GetComponent<ScoreGained>().SetText(scoreValue.ToString());
-
+            pool.GetScoreText(scoreValue, Camera.main.WorldToScreenPoint(transform.position), Quaternion.identity);
             PlayerData.AddScore(scoreValue);
 
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
 }

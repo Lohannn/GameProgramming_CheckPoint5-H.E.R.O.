@@ -25,12 +25,10 @@ public class Player : MonoBehaviour
     [SerializeField] private Color32 sensorColor;
 
     [Header("Attack Settings")]
-    [SerializeField] private GameObject playerAttack;
     [SerializeField] private Transform playerAttackPosition;
     private bool onAttackCooldown;
 
     [Header("Bomb Plant Settings")]
-    [SerializeField] private GameObject bombPrefab;
     [SerializeField] private Transform bombPosition;
 
     private bool isDead;
@@ -47,6 +45,7 @@ public class Player : MonoBehaviour
     private PlayerAudioPlayer ap;
     private PlayerAnimatorManager pam;
     private StageMusicPlayer sap;
+    private VfxPoolManager pool;
 
     void Start()
     {
@@ -56,6 +55,7 @@ public class Player : MonoBehaviour
         ap = GetComponent<PlayerAudioPlayer>();
         pam = GetComponent<PlayerAnimatorManager>();
         sap = GameObject.FindGameObjectWithTag("StageMusicPlayer").GetComponent<StageMusicPlayer>();
+        pool = GameObject.FindGameObjectWithTag("VFXPool").GetComponent<VfxPoolManager>();
     }
     
     void Update()
@@ -128,7 +128,7 @@ public class Player : MonoBehaviour
             {
                 pam.BombPlant();
                 ap.PlayAudio(ap.BOMB);
-                Instantiate(bombPrefab, bombPosition.position, Quaternion.identity);
+                pool.GetBomb(bombPosition.position, Quaternion.identity);
                 data.RemoveBomb();
             }
         }
@@ -165,10 +165,8 @@ public class Player : MonoBehaviour
     private IEnumerator OnAttack()
     {
         yield return new WaitForSeconds(0.06f);
-        GameObject attack = Instantiate(playerAttack);
-        attack.transform.SetPositionAndRotation(playerAttackPosition.position, transform.rotation);
-        attack.transform.parent = transform;
-        attack.GetComponent<Attack>().SetDamage(damage);
+
+        pool.GetPlayerAttack(damage, playerAttackPosition.position, transform.rotation);
     }
 
     private IEnumerator AttackCooldown() //Cooldown para não ser possível spammar o ataque e assim bugar a animação

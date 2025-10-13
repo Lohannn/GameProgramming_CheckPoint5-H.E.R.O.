@@ -20,7 +20,7 @@ public class Lamp : MonoBehaviour
     {
         darknessMap = darkness.GetComponent<Tilemap>();
 
-        if (snakes.Count > 0)
+        if (enemies[0] != null)
         {
             foreach (var enemy in enemies)
             {

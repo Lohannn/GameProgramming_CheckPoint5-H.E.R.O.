@@ -19,6 +19,7 @@ TagManager:
   - MagmaWall
   - Darkness
   - Lamp
+  - VFXPool
   layers:
   - Default
   - TransparentFX

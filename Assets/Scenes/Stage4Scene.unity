@@ -5894,6 +5894,55 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &471275123
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 471275125}
+  - component: {fileID: 471275124}
+  m_Layer: 0
+  m_Name: VfxPool
+  m_TagString: VFXPool
+  m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &471275124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471275123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 574c37862a0ebae4dbc6edcd24b3b771, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerAttack: {fileID: 6086902340281583283, guid: 76cbefe561fb48142993c931951ce3dc, type: 3}
+  bomb: {fileID: 8142170660353499618, guid: f181eb8985ac4da439814afa38fbfce3, type: 3}
+  bombExplosion: {fileID: 3643700414282040494, guid: dfecdf49c3b95bb4088d1b33c1456ff5, type: 3}
+  enemyExplosion: {fileID: 7025264637138815523, guid: 74dd2b40cd140814cb7ad6d405d85ddd, type: 3}
+  scoreText: {fileID: 6300487421582909775, guid: e97ca9d95ed43f242bc4509c179242c9, type: 3}
+--- !u!4 &471275125
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471275123}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 6.49, z: 0.058161784}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &489019887
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43191,3 +43240,4 @@ SceneRoots:
   - {fileID: 489019887}
   - {fileID: 2128009865}
   - {fileID: 1404960540}
+  - {fileID: 471275125}

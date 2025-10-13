@@ -6,7 +6,7 @@ public class Explosion : MonoBehaviour
     [Header("Explosion Settings")]
     [SerializeField] private float timeToDestroy;
 
-    void Start()
+    private void OnEnable()
     {
         StartCoroutine(ExplosionTimer(timeToDestroy));
     }
@@ -14,6 +14,6 @@ public class Explosion : MonoBehaviour
     private IEnumerator ExplosionTimer(float time)
     {
         yield return new WaitForSecondsRealtime(time);
-        Destroy(gameObject);
+        gameObject.SetActive(false);
     }
 }
