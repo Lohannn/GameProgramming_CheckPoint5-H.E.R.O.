@@ -279,10 +279,12 @@ MonoBehaviour:
   sensorColor:
     serializedVersion: 2
     rgba: 4278195303
-  playerAttack: {fileID: 6086902340281583283, guid: 76cbefe561fb48142993c931951ce3dc, type: 3}
   playerAttackPosition: {fileID: 3326129557492211229}
-  bombPrefab: {fileID: 8142170660353499618, guid: f181eb8985ac4da439814afa38fbfce3, type: 3}
   bombPosition: {fileID: 6791069324320830653}
+  isDead: 0
+  onDeathScene: 0
+  isReadyToResume: 0
+  hasWon: 0
 --- !u!114 &257229765867090599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -308,7 +310,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 0.3
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
