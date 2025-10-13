@@ -31,13 +31,13 @@ public class Player : MonoBehaviour
     [Header("Bomb Plant Settings")]
     [SerializeField] private Transform bombPosition;
 
-    private bool isDead;
-    private bool onDeathScene;
-    private bool isReadyToResume;
+    public bool isDead;
+    public bool onDeathScene;
+    public bool isReadyToResume;
     private bool wasDeadByTime;
     private float deathPosition;
     private bool inSafeZone;
-    private bool hasWon;
+    public bool hasWon;
 
     private SpriteRenderer sr;
     private Collider2D col;
@@ -56,6 +56,8 @@ public class Player : MonoBehaviour
         pam = GetComponent<PlayerAnimatorManager>();
         sap = GameObject.FindGameObjectWithTag("StageMusicPlayer").GetComponent<StageMusicPlayer>();
         pool = GameObject.FindGameObjectWithTag("VFXPool").GetComponent<VfxPoolManager>();
+
+        sap.PlayAudio(sap.STAGE);
     }
     
     void Update()
@@ -78,6 +80,14 @@ public class Player : MonoBehaviour
     private void PlayerInputs()
     {
         if (isDead || onDeathScene || isReadyToResume || hasWon) return;
+
+        if (GameObject.FindGameObjectWithTag("PauseMenu") != null)
+        {
+            if (GameObject.FindGameObjectWithTag("PauseMenu").activeSelf)
+            {
+                return;
+            }
+        }
 
         movement = Input.GetAxisRaw("Horizontal") * speed; //Movimento horizontal
         fly = flySpeed; //Voar
@@ -166,7 +176,7 @@ public class Player : MonoBehaviour
     {
         yield return new WaitForSeconds(0.06f);
 
-        pool.GetPlayerAttack(damage, playerAttackPosition.position, transform.rotation);
+        pool.GetPlayerAttack(transform, damage, playerAttackPosition.position, transform.rotation);
     }
 
     private IEnumerator AttackCooldown() //Cooldown para não ser possível spammar o ataque e assim bugar a animação
@@ -308,16 +318,17 @@ public class Player : MonoBehaviour
     private IEnumerator FinalDeathTimer()
     {
         yield return new WaitForSecondsRealtime(2.0f);
-        print("Voltou pro menu");
         Time.timeScale = 1.0f;
         PlayerData.ResetData();
         PlayerData.ResetBonusLifeCounter();
-        SceneManager.LoadScene("Stage1Scene");
+        sap.PlayAudio(sap.MAINMENU);
+        SceneManager.LoadScene("MainMenuScene");
     }
 
     private IEnumerator DeathByTimeTimer()
     {
         yield return new WaitForSecondsRealtime(2.0f);
+        wasDeadByTime = false;
         Time.timeScale = 1.0f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }

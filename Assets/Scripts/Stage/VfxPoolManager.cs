@@ -24,12 +24,13 @@ public class VfxPoolManager : MonoBehaviour
         InstantiateScoreTexts();
     }
 
-    public GameObject GetPlayerAttack(int damage, Vector2 position, quaternion rotation)
+    public GameObject GetPlayerAttack(Transform player, int damage, Vector2 position, quaternion rotation)
     {
         foreach (var attack in playerAttackPool)
         {
             if (!attack.activeInHierarchy)
             {
+                attack.transform.parent = player.transform;
                 attack.GetComponent<Attack>().SetDamage(damage);
                 attack.transform.SetPositionAndRotation(position, rotation);
                 attack.SetActive(true);
