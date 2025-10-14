@@ -20,6 +20,12 @@ public class MainMenuCanvas : MonoBehaviour
 
         if (Input.anyKeyDown)
         {
+            if (Input.GetKeyDown(KeyCode.Mouse0) || Input.GetKeyDown(KeyCode.Mouse1) || Input.GetKeyDown(KeyCode.Mouse3) ||
+                Input.GetKeyDown(KeyCode.LeftAlt) || Input.GetKeyDown(KeyCode.Tab))
+            {
+                return;
+            }
+
             SceneManager.LoadScene("Stage1Scene");
         }
     }

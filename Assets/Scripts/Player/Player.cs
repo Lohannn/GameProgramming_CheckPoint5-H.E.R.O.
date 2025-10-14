@@ -301,7 +301,7 @@ public class Player : MonoBehaviour
 
     private void Death()
     {
-        deathPosition = transform.position.y;
+        deathPosition = transform.position.y + 0.5f;
         onDeathScene = true;
         Time.timeScale = 0.0f;
         col.enabled = false;
