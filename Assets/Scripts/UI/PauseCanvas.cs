@@ -29,6 +29,7 @@ public class PauseCanvas : MonoBehaviour
     public void Resume()
     {
         pausePanel.gameObject.SetActive(false);
+        Time.timeScale = 1.0f;
     }
 
     public void BackToMainMenu()
